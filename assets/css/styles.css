@@ -25,7 +25,7 @@ header {
   display: none;
 }
 
-.search{
+.search {
   width: 17px;
   height: auto;
 }
@@ -62,9 +62,8 @@ header {
   background: transparent;
   border: 1px solid #2A7AE4;
   color: #2A7AE4;
-  width: 133px;
+  width: 150px;
   height: 40px;
-  padding: 12px 16px;
   font-size: 1.4rem;
   font-weight: 500;
 }
@@ -114,7 +113,7 @@ header {
   padding-bottom: 16px;
 }
 
-.product__iten{
+.product__iten {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -132,20 +131,20 @@ header {
   margin: 0;
 }
 
-.product__iten span{
+.product__iten span {
   font-size: 1.6rem;
   font-weight: 700;
   color: #464646;
 }
 
-.product__iten a{
+.product__iten a {
   font-size: 1.4rem;
   font-weight: 700;
   color: #2A7AE4;
   text-decoration: none;
 }
 
-footer{
+footer {
   box-sizing: border-box;
   position: relative;
   width: 100%;
@@ -161,30 +160,74 @@ footer img {
   width: 175px;
 }
 
-.links{
+.links {
+  box-sizing: border-box;
   text-align: center;
   width: 100%;
-  max-width: 450px;
+  max-width: 434px;
 }
 
-form{
- display: flex;
- flex-direction: column;
- gap: 8px;
- width: 100%;
- max-width: 450px;
+form {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+  max-width: 434px;
 }
 
-form input{
+form h4 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #464646;
+}
+
+form input {
   border: none;
   width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #464646;
 }
 
-form textarea{
+form input:focus {
+  outline: none;
+}
+
+form textarea {
+  box-sizing: border-box;
   width: 100%;
+  height: 82px;
+  resize: none;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #A2A2A2;
+  padding: 12px;
+  border-bottom: 1px solid #A2A2A2;
 }
 
-.name{
+form textarea:focus {
+  outline: none;
+}
+
+.name {
+  box-sizing: border-box;
   width: 100%;
   background: #ffffff;
+  height: 56px;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #A2A2A2;
+  padding: 12px;
+  border-bottom: 1px solid #C8C8C8;
+}
+
+.copyright {
+  height: 102px;
+  width: 100%;
+  background: #ffffff;
+  display: grid;
+  place-items: center;
+  font-size: 1.6rem;
+  color: #464646;
 }

@@ -4,7 +4,6 @@ html {
 
 body {
   font-family: 'Raleway', sans-serif;
-
 }
 
 header {
@@ -26,6 +25,11 @@ header {
   display: none;
 }
 
+.search{
+  width: 17px;
+  height: auto;
+}
+
 .banner {
   box-sizing: border-box;
   padding: 16px;
@@ -42,6 +46,7 @@ header {
 }
 
 .banner h2 {
+  box-sizing: border-box;
   color: #FFFFFF;
   font-size: 2.2rem;
 }
@@ -50,7 +55,7 @@ header {
   color: #FFFFFF;
   font-size: 1.4rem;
   font-weight: 500;
-  line-height: 16px;
+  line-height: 26px;
 }
 
 .btn {
@@ -70,12 +75,12 @@ header {
 }
 
 .products {
-  padding: 0 8px;
+  box-sizing: border-box;
 }
 
 .products__title {
-  padding-bottom: 16px;
-  padding-top: 16px;
+  box-sizing: border-box;
+  padding: 16px;
 }
 
 .products__title h3 {
@@ -103,6 +108,7 @@ header {
 
 .products__list {
   display: flex;
+  justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
   padding-bottom: 16px;
@@ -139,3 +145,46 @@ header {
   text-decoration: none;
 }
 
+footer{
+  box-sizing: border-box;
+  position: relative;
+  width: 100%;
+  background: #EAF2FD;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+}
+
+footer img {
+  width: 175px;
+}
+
+.links{
+  text-align: center;
+  width: 100%;
+  max-width: 450px;
+}
+
+form{
+ display: flex;
+ flex-direction: column;
+ gap: 8px;
+ width: 100%;
+ max-width: 450px;
+}
+
+form input{
+  border: none;
+  width: 100%;
+}
+
+form textarea{
+  width: 100%;
+}
+
+.name{
+  width: 100%;
+  background: #ffffff;
+}

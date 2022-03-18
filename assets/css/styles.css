@@ -103,6 +103,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background: #F5F5F5;
 }
 
 .products__list {
@@ -110,6 +111,7 @@ header {
   justify-content: center;
   gap: 16px;
   flex-wrap: wrap;
+  background: #F5F5F5;
   padding-bottom: 16px;
 }
 
@@ -150,7 +152,7 @@ footer {
   width: 100%;
   background: #EAF2FD;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 16px;
@@ -172,7 +174,7 @@ footer a {
   flex-direction: column;
   text-align: center;
   width: 100%;
-  height: 200px;
+  height: 260px;
   justify-content: space-around;
   margin-bottom: 16px;
 }
@@ -183,7 +185,7 @@ form {
   flex-direction: column;
   gap: 16px;
   width: 100%;
-  max-width: 434px;
+  max-width: 435px;
 }
 
 form h4 {
@@ -214,6 +216,7 @@ form textarea {
   color: #A2A2A2;
   padding: 12px;
   border-bottom: 1px solid #A2A2A2;
+  border-radius: 4px;
 }
 
 form textarea:focus {
@@ -230,6 +233,7 @@ form textarea:focus {
   color: #A2A2A2;
   padding: 12px;
   border-bottom: 1px solid #C8C8C8;
+  border-radius: 4px;
 }
 
 .copyright {
@@ -240,4 +244,45 @@ form textarea:focus {
   place-items: center;
   font-size: 1.6rem;
   color: #464646;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 32px;
+  }
+
+  .links ul{
+    text-align: left;
+  }
+
+}
+
+@media screen and (min-width: 1440px) {
+  footer {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 64px;
+    gap: 115px;
+    height: 368px;
+  }
+
+  .links__container{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+
+  .links__container img {
+    align-self: flex-start;
+  }
+
+  form {
+    max-width: 560px;
+  }
 }

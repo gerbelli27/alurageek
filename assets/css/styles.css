@@ -166,14 +166,15 @@ footer a {
   color: #464646;
 }
 
-.links {
+.links ul{
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   text-align: center;
   width: 100%;
-
-  max-width: 434px;
+  height: 200px;
+  justify-content: space-around;
+  margin-bottom: 16px;
 }
 
 form {

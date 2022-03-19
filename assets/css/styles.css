@@ -208,7 +208,7 @@ form h4 {
 
 form input {
   border: none;
-  width: 100%;
+  width: 95%;
   font-size: 1.6rem;
   font-weight: 400;
   color: #464646;
@@ -237,6 +237,8 @@ form textarea:focus {
 
 .name {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   background: #ffffff;
   height: 56px;

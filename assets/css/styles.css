@@ -23,8 +23,28 @@ header {
   height: 28px;
 }
 
-.logo-search input {
+.search-bar {
+  box-sizing: border-box;
   display: none;
+  width: 60%;
+  height: 40px;
+  background: url(../images/search-bg.png) no-repeat #F5F5F5 95% 50%;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: #A2A2A2;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.search-bar:focus{
+  outline: none;
+}
+
+.search-active{
+  display: inline-block;  
+  position: absolute;
+  top: 16px;
+  right: 16px;
 }
 
 .search {
@@ -71,6 +91,10 @@ header {
   font-size: 1.4rem;
   font-weight: 500;
   cursor: pointer;
+}
+
+.btn-active{
+  display: none;
 }
 
 .btn__blue {
@@ -282,21 +306,13 @@ form textarea:focus {
     width: auto;
   }
 
-  .logo-search input {
-    box-sizing: border-box;
+  .search-bar {
     display: inline-block;
     width: 272px;
     height: 40px;
-    background: url(../images/search-bg.png) no-repeat #F5F5F5 95% 50%;
-    border-radius: 20px;
-    padding: 8px 16px;
-    color: #A2A2A2;
-    font-size: 1.4rem;
-    font-weight: 400;
-
   }
 
-  .logo-search input:focus{
+  .search-bar:focus{
     outline: none;
   }
 
@@ -371,7 +387,7 @@ form textarea:focus {
     height: 50px;
   }
 
-  .logo-search input {
+  .search-bar {
     width: 393px;
     padding: 8px 16px;
   }

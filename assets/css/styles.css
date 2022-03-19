@@ -88,11 +88,13 @@ header {
 
 .products__title {
   box-sizing: border-box;
-  padding: 0 16px 16px 16px;
+  padding-bottom: 16px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: #F5F5F5;
+  max-width: 330px;
+  margin: 0 auto;
 }
 
 .products__title h3 {
@@ -309,7 +311,7 @@ form textarea:focus {
   }
 
   .products__title {
-    padding: 0px 32px 16px 32px;
+    max-width: 708px;
   }
   
   .product__iten img {
@@ -366,7 +368,8 @@ form textarea:focus {
   }
 
   .products__title {
-    padding: 16px 190px;
+    max-width: 1130px;
+   
   }
 
   .product__iten img {

@@ -151,7 +151,7 @@ header {
 
 .products__title span::after {
   content: url(../images/arrow.svg);
-  padding-left: 6px;
+  padding-left: 8px;
 }
 
 .products__list {
@@ -357,7 +357,15 @@ form textarea:focus {
 
   .products__title span {
     font-size: 1.6rem;
+    font-weight: 700;
   }
+
+  .products__title span::after {
+    content: url(../images/arrow-desktop.png);
+    padding-left: 10px;
+  }
+
+  
 
   .product__iten img {
     width: 164px;

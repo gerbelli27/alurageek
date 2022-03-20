@@ -25,8 +25,9 @@ header {
 
 .search-bar {
   box-sizing: border-box;
-  display: none;
-  width: 60%;
+  visibility: hidden;
+  position: absolute;
+  width: 0;
   height: 40px;
   background: url(../images/search-bg.png) no-repeat #F5F5F5 95% 50%;
   border-radius: 20px;
@@ -41,10 +42,13 @@ header {
 }
 
 .search-active{
-  display: inline-block;  
+  visibility: visible;
+  display: block;  
   position: absolute;
   top: 16px;
   right: 16px;
+  width: 60%;
+  transition: width 1s;
 }
 
 .search {
@@ -307,6 +311,8 @@ form textarea:focus {
   }
 
   .search-bar {
+    position: relative;
+    visibility: visible;
     display: inline-block;
     width: 272px;
     height: 40px;

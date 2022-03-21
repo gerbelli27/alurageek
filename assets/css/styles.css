@@ -29,7 +29,7 @@ header {
   position: absolute;
   width: 0;
   height: 40px;
-  background: url(../images/search-bg.png) no-repeat #F5F5F5 95% 50%;
+  background: url(../images/search-bg.svg) no-repeat #F5F5F5 95% 50%;
   border-radius: 20px;
   padding: 8px 16px;
   color: #A2A2A2;

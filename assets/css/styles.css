@@ -384,6 +384,20 @@ footer a {
     text-align: left;
   }
 
+  .password{
+    min-width: 423px;
+    min-height: 63px;
+  }
+  
+  .email{
+    min-width: 423px;
+    min-height: 63px;
+  }
+
+  .btn__login{
+    min-height: 63px;
+  }
+
 }
 
 @media screen and (min-width: 1440px) {
@@ -452,7 +466,7 @@ footer a {
 
   .links__container{
     box-sizing: border-box;
-    width: 440px;
+    width: 460px;
     display: flex;
     justify-content: space-between;
   }

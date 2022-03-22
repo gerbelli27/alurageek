@@ -13,31 +13,46 @@
   display: flex;
   flex-direction: column; 
   gap: 16px;  
+  text-align: center;
+}
+
+.login-container h3{
+ font-size: 1.8rem;
+ font-weight: 700; 
+ color: #464646;
+
 }
 
 .password{
+  box-sizing: border-box;
   border: none;
-  width: 100%;
+  padding: 12px;
   font-size: 1.6rem;
   font-weight: 400;
-  color: #464646;
-  width: 275px;
+  color: #A2A2A2;
+  min-width: 275px;
   height: 41px;
 }
 
+.password:focus{
+  outline-color: #EAF2FD;
+}
+
 .email {
+  box-sizing: border-box;
   border: none;
-  width: 100%;
+  padding: 12px;
   font-size: 1.6rem;
   font-weight: 400;
-  color: #464646;
+  color: #A2A2A2;
   max-width: 275px;
   height: 41px;
 }
 
+.email:focus{
+  outline-color: #EAF2FD;
+}
 
-
-
-
-
-
+.btn__login{
+  height: 41px;
+}

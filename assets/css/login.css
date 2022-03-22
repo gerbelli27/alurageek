@@ -1,33 +1,43 @@
 .login-container{
-  height: 400px;
-  padding: 16px;
-  display: grid;
-  place-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  height: 300px;
 }
 
-.login-container h3 {
-  font-size: 1.8rem;
-  font-weight: 700;
-  color: #464646;
-  align-self: center;
+.login-container form{
+  display: flex;
+  flex-direction: column; 
+  gap: 16px;  
 }
 
-.login-container input {
- 
-  max-width: 423px;
-  height: 62px;
+.password{
+  border: none;
+  width: 100%;
   font-size: 1.6rem;
   font-weight: 400;
-  color: #A2A2A2;
-  padding: 8px;
-  border-bottom: 1px solid #C8C8C8;
-  border-radius: 4px;
+  color: #464646;
+  width: 275px;
+  height: 41px;
 }
 
-.btn__login{
-  height: 62px;
-  max-width: 423px;
-  font-size: 1.8rem;
-  font-weight: 600;
-  padding: 8px;
+.email {
+  border: none;
+  width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #464646;
+  max-width: 275px;
+  height: 41px;
 }
+
+
+
+
+
+
+

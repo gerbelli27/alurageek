@@ -231,7 +231,7 @@ footer a {
   margin-bottom: 16px;
 }
 
-form {
+.form-message {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -240,25 +240,25 @@ form {
   max-width: 435px;
 }
 
-form h4 {
+.form-message h4 {
   font-size: 1.6rem;
   font-weight: 700;
   color: #464646;
 }
 
-form input {
+.form-message input {
   border: none;
-  width: 95%;
+  width: 100%;
   font-size: 1.6rem;
   font-weight: 400;
   color: #464646;
 }
 
-form input:focus {
+.form-message input:focus {
   outline: none;
 }
 
-form textarea {
+.form-message textarea {
   box-sizing: border-box;
   width: 100%;
   height: 82px;
@@ -271,7 +271,7 @@ form textarea {
   border-radius: 4px;
 }
 
-form textarea:focus {
+.form-message textarea:focus {
   outline: none;
 }
 
@@ -365,8 +365,6 @@ form textarea:focus {
     padding-left: 10px;
   }
 
-  
-
   .product__iten img {
     width: 164px;
     height: 174px;
@@ -378,9 +376,8 @@ form textarea:focus {
   
   footer {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-start;
-    padding: 32px;
   }
 
   .links ul{
@@ -449,22 +446,19 @@ form textarea:focus {
     height: 368px;
   }
 
-  .links__container{
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  .form-message {
+    max-width: 560px;
   }
 
-  .links__container ul {
-    margin-right: 115px;
+  .links__container{
+    box-sizing: border-box;
+    width: 440px;
+    display: flex;
+    justify-content: space-between;
   }
 
   .links__container img {
     align-self: flex-start;
   }
 
-  .form-message {
-    max-width: 560px;
-  }
 }

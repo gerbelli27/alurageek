@@ -386,16 +386,16 @@ footer a {
 
   .password{
     min-width: 423px;
-    min-height: 63px;
+    min-height: 60px;
   }
   
   .email{
     min-width: 423px;
-    min-height: 63px;
+    min-height: 60px;
   }
 
   .btn__login{
-    min-height: 63px;
+    min-height: 60px;
   }
 
 }

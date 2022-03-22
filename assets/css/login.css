@@ -1,5 +1,33 @@
 .login-container{
+  height: 400px;
+  padding: 16px;
   display: grid;
   place-items: center;
-  height: 400px;
+}
+
+.login-container h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #464646;
+  align-self: center;
+}
+
+.login-container input {
+ 
+  max-width: 423px;
+  height: 62px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #A2A2A2;
+  padding: 8px;
+  border-bottom: 1px solid #C8C8C8;
+  border-radius: 4px;
+}
+
+.btn__login{
+  height: 62px;
+  max-width: 423px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 8px;
 }

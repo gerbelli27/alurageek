@@ -464,7 +464,7 @@ form textarea:focus {
     align-self: flex-start;
   }
 
-  form {
+  .form-message {
     max-width: 560px;
   }
 }

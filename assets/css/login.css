@@ -9,7 +9,7 @@
   height: 380px;
 }
 
-.login-container form{
+.form-login {
   display: flex;
   flex-direction: column; 
   gap: 16px;  
@@ -37,7 +37,7 @@
 }
 
 .password:focus{
-  outline-color: #EAF2FD;
+  outline-color: #2A7AE4;
 }
 
 .email {
@@ -53,7 +53,7 @@
 }
 
 .email:focus{
-  outline-color: #EAF2FD;
+  outline-color: #2A7AE4;
 }
 
 .btn__login{
